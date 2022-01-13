@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.App{
+  min-height: 100vh;
+  background-image: linear-gradient(to left, #b496fa 0%, #fce8f7 100%);
+}
+
+.search-form{
+  min-height: 8vh;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar{
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+.search-button{
+  background: #6f42d8;
+  padding: 10px 30px;
+  margin-left: 10px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+}
+
+.search-button:hover{
+  background: #4f2aa7;
+}
+
+.recipes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container{
+  padding: 2rem;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.list-ol{
+  list-style: none;
+}
+
+.list-li{
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calorie{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.food-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
